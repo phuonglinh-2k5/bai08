@@ -1,0 +1,72 @@
+/* Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+/* End Reset */
+
+.header_bar {
+    background-color: #f6f4f4;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+ul.menu-left {
+    list-style-type: none;
+    display: flex;
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu-right {
+    list-style-type: none;
+    display: flex;
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+}
+
+.menu-left li {
+    margin-right: 15px; /* Khoảng cách giữa các mục bên trái */
+}
+
+li {
+    margin: 0 15px; 
+    display: flex; 
+    align-items: center; 
+}
+
+.icon_cart {
+    background: url("images/icon_cart.png") no-repeat center;
+    height: 16px;
+    width: 16px;
+    background-size: contain;
+    margin-left: 5px;
+}
+
+.icon_eye {
+    background: url("images/icon_eye.png") no-repeat center;
+    height: 16px;
+    width: 16px;
+    background-size: contain;
+    margin-left: 10px;
+}
+
+.icon_user {
+    background: url("images/icon_user.png") no-repeat center left;
+    padding-left: 25px;
+    height: 16px;
+    width: auto;
+    background-size: contain;
+    margin-left: 10px;
+    
+}
